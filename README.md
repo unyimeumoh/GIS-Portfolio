@@ -9,6 +9,7 @@ This portfolio provides an overview of my professional work and academic experie
 - [About Me](#-about-me)
 - [Tech Stack](#-tech-stack)
 - [Projects](#-projects)
+- [portfolio](#-Portfolio Website)
 - [Study Projects](#-study-projects)
 - [Bachelor Thesis](#-bachelor-thesis)
 - [Master Thesis](#-master-thesis)
@@ -55,6 +56,12 @@ My professional interests include:
 ## 🛰 Projects
 
 A selection of GIS, remote sensing, BIM, and geospatial software development projects completed throughout my academic and professional career.
+
+## 🚀 Portfolio Website
+
+Explore my GIS, Remote Sensing, and Web Mapping projects here:
+
+🔗 https://unyimeumoh.github.io/GIS-Portfolio/
 
 ---
 
