@@ -3,58 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GIS Portfolio</title>
+  <title>Markeita Townsend Portfolio</title>
 
   <style>
     body{
       font-family: Arial, sans-serif;
       margin:0;
-      background:#0f172a;
+      background:#4f194e;
       color:white;
+      line-height:1.6;
     }
 
     header{
       text-align:center;
-      padding:60px 20px;
-      background:#1e293b;
-    }
+       padding:70px 20px;
+      background:#052354;
+      color:white;
+      border-radius: 25px;
+      margin: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+   }
 
     h1{
-      font-size:48px;
+      font-size:52px;
       margin-bottom:10px;
     }
 
-    p{
+    header p{
       font-size:18px;
       color:#cbd5e1;
+      margin:5px 0;
+    }
+
+    section{
+      padding:50px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    h2{
+      border-left:4px solid #38bdf8;
+      padding-left:10px;
+      margin-bottom:20px;
     }
 
     .projects{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
       gap:20px;
-      padding:40px;
     }
 
     .card{
       background:#1e293b;
+      padding:15px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      background:#263449;
+    }
+
+    .card img{
+      width:100%;
+      border-radius:10px;
+      margin-bottom:10px;
+    }
+
+    .card h3{
+      margin:20px 0 10px;
+    }
+
+    .card p{
+      color:#cbd5e1;
+      font-size:16px;
+    }
+
+    .about{
+      background:#052354;
       padding:20px;
       border-radius:12px;
     }
 
-    .card h2{
-      margin-top:0;
+    footer{
+      text-align:center;
+      padding:30px 20px;
+      color:#94a3b8;
+      background:#0f172a;
+      border-radius: 25px;
+      margin: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     }
 
     a{
       color:#38bdf8;
       text-decoration:none;
-    }
-
-    footer{
-      text-align:center;
-      padding:20px;
-      color:#94a3b8;
     }
   </style>
 </head>
@@ -62,41 +106,71 @@
 <body>
 
 <header>
-  <h1>Unyime Umoh</h1>
-  <p>GIS Analyst • Remote Sensing • Web GIS Developer</p>
-  <p>📍 732 West End Ave Apt 1A, New York, NY 10025-6459, USA</p>
+  <h1>Markeita Townsend</h1>
+  <p>AI Data Specialist • Research Contributor • Data Analyst</p>
+  <p>📍 Fort Wayne, Indiana, USA</p>
 </header>
 
-<section class="projects">
-
-  <div class="card">
-    <img src="images/flood-map.jpg" width="100%" style="border-radius:10px;">
-    <h2>Flood Risk Mapping</h2>
-    <p>Spatial flood vulnerability analysis using GIS tools.</p>
+<section>
+  <h2>About Me</h2>
+  <div class="about">
+    <p>
+     Detail-oriented AI Data Specialist and Research Contributor with
+     extensive experience in data analysis, evaluation, and structured
+     decision-making. Expertise in reviewing complex information to
+     identify patterns and applying rigorous guidelines to ensure highquality
+     outputs. Demonstrated ability to work independently while
+     consistently meeting deadlines and delivering precise annotations
+     across diverse subject areas, including healthcare, behavioral science,
+     and social systems. Committed to leveraging analytical skills to drive
+     impactful insights and support data-driven decision-making
+     processes.
+    </p>
   </div>
+</section>
 
-  <div class="card">
-    <img src="images/landuse.jpg" width="100%" style="border-radius:10px;">
-    <h2>Land Use Classification</h2>
-    <p>Satellite imagery classification and visualization.</p>
+<section>
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <img src="images/data-analysis.jpg" alt="Data Analysis">
+      <h3>Data Analysis</h3>
+      <p>Analyzing datasets to identify trends, patterns, and actionable insights.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/ai-evaluation.jpg" alt="AI Evaluation">
+      <h3>AI Evaluation</h3>
+      <p>Evaluating AI-generated outputs for accuracy, consistency, and quality.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/research.avif" alt="Research">
+      <h3>Research & Fact-Checking</h3>
+      <p>Conducting detailed research and validating information using structured methodologies.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/healthcare-data.avif" alt="Healthcare Analytics">
+      <h3>Healthcare Analytics</h3>
+      <p>Supporting data-driven decision-making through healthcare program analysis.</p>
+    </div>
+
   </div>
+</section>
 
-  <div class="card">
-    <img src="images/dashboard.avif" width="100%" style="border-radius:10px;">
-    <h2>GIS Dashboard</h2>
-    <p>Interactive GIS dashboard for spatial data analysis.</p>
+<section>
+  <h2>Contact</h2>
+  <div class="about">
+    <p>Email: markeita.townsend@waldenu.edu</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/markeita-townsend-18110a220">Profile</a></p>
   </div>
-
-  <div class="card">
-    <img src="images/before-after.jpg" width="100%" style="border-radius:10px;">
-    <h2>Before & After Imagery</h2>
-    <p>Environmental change detection using remote sensing.</p>
-  </div>
-
 </section>
 
 <footer>
-  © 2026 GIS Portfolio
+   © 2026 Markeita Townsend | AI Data Specialist & Research Contributor | Built with HTML & CSS
 </footer>
 
 </body>
